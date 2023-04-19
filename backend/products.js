@@ -1,0 +1,58 @@
+const products = [
+  {
+    id: 1,
+    image: "Apple_BYZ _S8521.png",
+    title: "Apple BYZ S852I",
+    count: 1,
+    price: 2927,
+    priceTotal: 2927,
+    rate: 4.7,
+  },
+  {
+    id: 2,
+    image: "Apple_EarPods.png",
+    title: "Apple EarPods",
+    count: 1,
+    price: 2327,
+    priceTotal: 2327,
+    rate: 4.5,
+  },
+  {
+    id: 3,
+    image: "Apple_EarPods_box.png",
+    title: "Apple EarPods Box",
+    count: 1,
+    price: 2327,
+    priceTotal: 2327,
+    rate: 4.5,
+  },
+  {
+    id: 4,
+    image: "Apple_AirPods.png",
+    title: "Apple AirPods",
+    count: 1,
+    price: 9527,
+    priceTotal: 9527,
+    rate: 4.7,
+  },
+  {
+    id: 5,
+    image: "GERLAX_GH-04.png",
+    title: "GERLAX GH-04",
+    count: 1,
+    price: 6527,
+    priceTotal: 6527,
+    rate: 4.5,
+  },
+  {
+    id: 6,
+    image: "BOROFONE_BO4.png",
+    title: "BOROFONE BO4",
+    count: 1,
+    price: 7527,
+    priceTotal: 7527,
+    rate: 4.7,
+  },
+];
+
+module.exports = products;

@@ -1,0 +1,44 @@
+@use "global";
+@use "header";
+@use "footer";
+@use "variables";
+@use "cartList";
+@use "cartItem";
+@use "basket";
+@use 'fonts';
+
+
+.cart {
+  margin-top: 29px;
+  & h2 {
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1C27;
+  }
+   p {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .start-shopping  {
+    svg {
+      margin-right: 0.5em;
+    }
+    a {
+      text-decoration: none;
+      color: #000000;
+      font-family: 'Montserrat-Regular', sans-serif;
+      font-size: 17px;
+      line-height: 21px;
+       cursor: pointer;
+       transition: 0.5s;
+       &:hover{
+        font-family: "Montserrat-SemiBold", sans-serif;
+        color: #ffa542;
+       }
+    }
+  }
+}

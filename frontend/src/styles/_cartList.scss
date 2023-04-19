@@ -1,0 +1,11 @@
+.cartList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  &__title {
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #838383;
+  }
+}

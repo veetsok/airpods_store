@@ -1,0 +1,54 @@
+
+header a:last-child {
+  fill: #838383;
+
+  & :hover {
+    transition: 0.5s;
+    fill: #FFA542;
+  }
+}
+
+.header{
+  padding: 15px 0;
+  &__list{
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .logo {
+    a{
+      color: #101010;
+      cursor: pointer;
+      text-align: left !important;
+      text-decoration: none;
+      text-decoration: none;
+    }
+  }
+}
+
+
+.navbar__icons {
+  position: relative;
+  
+}
+  
+.cart__total{
+  display: inline-block;
+}
+
+.cart__total__quantity { 
+  top: -8px;
+  right: -10px;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  span{
+    font-family: "Montserrat-Regular", sans-serif;
+    padding: 0px 5px;
+    background: #FFA542;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center; 
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}
